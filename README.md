@@ -1,0 +1,1 @@
+# CobalthStrike-C2-Tools-InlineExecute-Assembly-WriteUp
