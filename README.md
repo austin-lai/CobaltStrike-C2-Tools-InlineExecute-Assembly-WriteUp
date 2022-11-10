@@ -50,7 +50,7 @@ Of course in certain case, you can also manually compile and create your own ver
 
 Now, let's load the `cna` (that is located at `inlineExecuteAssembly` directory) into cobaltstrike.
 
-Once beacon up, we can use below beacon command below to execute `Seatbelt`:
+Once beacon up, we can use  beacon command below to execute `Seatbelt`:
 
 ```
 inlineExecute-Assembly --dotnetassembly C:\Users\user\Desktop\inlineExecuteAssembly\Seatbelt.exe --assemblyargs AntiVirus
@@ -62,8 +62,8 @@ If you encountered error below:
 Process refusing to load v2.0.50727 CLR version.  Try running an assembly that requires a differnt CLR version.
 ```
 
-**It's mean the victim Windows unable to load DotNet lower than 4.0**
+**It's mean the victim Windows unable to load DotNet version lower than 4.0**
 
-**This is because most updated Windows prohibited DotNet 2.0 or 3.5**
+**This is because most updated Windows prohibited DotNet version 2.0 or 3.5**
 
-Ensure you have the `Seatbelt` executable compiled with DotNet 4.5.
+Ensure you have the `Seatbelt` executable compiled with DotNet version 4.0 or 4.5.
