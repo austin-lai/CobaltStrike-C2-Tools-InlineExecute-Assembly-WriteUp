@@ -62,7 +62,7 @@ If you encountered error below:
 Process refusing to load v2.0.50727 CLR version.  Try running an assembly that requires a differnt CLR version.
 ```
 
-**It's mean the victim Windows unable to load DotNet version lower than 4.0**
+**It's mean the victim's Windows unable to load DotNet version lower than 4.0**
 
 **This is because most updated Windows prohibited DotNet version 2.0 or 3.5**
 
